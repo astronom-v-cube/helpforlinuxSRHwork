@@ -1,0 +1,9 @@
+#!/bin/bash
+
+sudo cp ./applications/ds9.desktop /usr/share/applications/
+sudo cp ./licenses/ds9/LICENSE /usr/share/licenses/ds9/LICENSE
+sudo cp ./pixmaps/ds9.png /usr/share/pixmaps/ds9.png
+
+echo 'Не забудьте перенести исполняемый бинарный файл в папку /usr/bin и перезагрузить компьютер!'
+$SHELL
+
